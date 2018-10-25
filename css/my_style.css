@@ -1,0 +1,92 @@
+body{
+    background-color: skyblue
+}
+.file_upload{
+    margin-top: 50px;   
+}
+.file_upload > div{
+    background-color: white;
+    border: #797979 1px solid;
+    border-radius: 4px
+}
+.file_upload_left,.file_upload_right{
+    padding: 0px;
+    height: 380px;
+}
+.file_upload_left > div > div:first-child{
+    border: #a0a0a0 2px dotted;
+    height: 300px;
+    border-bottom: none
+}
+.file_upload_left > div > div:first-child > div img{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 50px
+}
+.file_upload_left > div > div:last-child > div{
+    padding: 0px
+}
+.file_upload_left > div > div:last-child label{
+    height: 70px;
+    width: 100%;
+    background-color: #00bb9a;
+    color: white;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer
+}
+.file_upload_right{
+    margin-left: 20px;
+}
+.file_upload_right > div > div:first-child{
+    height: 38px;
+    background-color: #696969;
+    color: white;
+    padding-top: 8px;
+}
+.file_upload_right > div > div:last-child{
+    height: 330px;
+    overflow-y: scroll
+}
+.file_item{
+    height: 70px;
+    border-bottom: #cdcdcd 1px solid
+}
+.file_img{
+    padding: 0px;
+}
+.file_img img{
+    width: 100%;
+    height: 100%
+}
+.file_name{
+    padding: 0px;
+    color: #696969;
+    font-weight: bold
+}
+.file_size{
+    padding: 0px;
+    text-align: right;
+    color: #696969
+}
+.file_progress{
+    padding: 0px
+}
+.file_log{
+    padding: 0px;
+    color: gray
+}
+.file_submit{
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: bold
+}
+@media(max-width: 500px){
+    .file_upload_right{
+        margin: 0px
+    }
+}
